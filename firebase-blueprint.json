@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "collections": [
+    {
+      "path": "users",
+      "description": "User profiles and permissions for ACDA members and administrators",
+      "indexes": []
+    },
+    {
+      "path": "channels",
+      "description": "WhatsApp-style community channels, group chats, and direct conversations",
+      "indexes": []
+    },
+    {
+      "path": "channels/{channelId}/messages",
+      "description": "Real-time chat messages inside community channels",
+      "indexes": []
+    },
+    {
+      "path": "projects",
+      "description": "Community development projects tracked and managed by administrators",
+      "indexes": []
+    },
+    {
+      "path": "townhall_topics",
+      "description": "Town hall agenda topics, community debates, and voting",
+      "indexes": []
+    },
+    {
+      "path": "system_config",
+      "description": "Administrative system configuration and settings",
+      "indexes": []
+    }
+  ]
+}

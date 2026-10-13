@@ -1,0 +1,8 @@
+{
+  "name": "ACDA Community",
+  "description": "Official community platform for ACDA with WhatsApp-like real-time messaging, administration backend, project tracking, town halls, and member directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
